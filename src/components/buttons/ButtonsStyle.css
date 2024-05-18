@@ -1,0 +1,30 @@
+.btn {
+  padding: 10px 17px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+  background-color: #f1f1f1;
+  transition: all 0.1s ease-in-out;
+}
+
+.show-btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn.zero {
+  grid-column: span 2;
+}
+
+.btn.equal {
+  grid-row: span 2;
+}
+
+.btn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
