@@ -1,7 +1,5 @@
-import './App.css';
-import Buttons from './components/buttons/Buttons';
-import Caculator from './components/caculator/Caculator';
-import Display from './components/display/Display';
+import "./App.css";
+import Caculator from "./components/caculator/Caculator";
 
 function App() {
   return (

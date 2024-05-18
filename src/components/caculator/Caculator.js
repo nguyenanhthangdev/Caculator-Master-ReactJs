@@ -63,6 +63,10 @@ const Caculator = () => {
   return (
     <div className="container">
       <div className="main">
+        <div className="manufacturer">
+          <h2>CASIO</h2>
+          <p>ELECTRONIC CACULATOR</p>
+        </div>
         <Display input={input} answer={answer}></Display>
         <Buttons
           inputHandler={inputHandler}
@@ -70,6 +74,9 @@ const Caculator = () => {
           backspace={backspace}
           result={result}
         ></Buttons>
+      </div>
+      <div className="trademark">
+        © 2024 Thắng Nguyễn. All rights reserved.
       </div>
     </div>
   );

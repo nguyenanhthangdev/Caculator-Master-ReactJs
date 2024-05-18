@@ -1,11 +1,16 @@
 .display {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 15px 10px 15px 10px;
   padding-bottom: 20px;
-  background: linear-gradient(90deg, #06beb6, #48b1bf 100%);
-  margin-bottom: 20px;
+  background: #06beb6;
+  margin-bottom: 50px;
   color: white;
+  border-radius: 7px;
+  border: 6px solid #e3e3e3;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.1),
+    /* Hiệu ứng thụt vào trong tổng thể */ inset 0 0 50px rgba(0, 0, 0, 0.1),
+    /* Hiệu ứng thụt vào trong đậm hơn */ inset 0 0 50px rgba(0, 0, 0, 0.1); /* Hiệu ứng thụt vào trong mạnh hơn */
 }
 
 .input,
@@ -19,7 +24,7 @@
 }
 
 .input {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .value {

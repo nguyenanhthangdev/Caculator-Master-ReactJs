@@ -1,13 +1,19 @@
 .btn {
-  padding: 10px 17px;
+  padding: 10px;
   font-size: 19px;
   cursor: pointer;
   text-align: center;
   border: none;
   border-radius: 5px;
   box-shadow: 0 5px #999;
-  background-color: #f1f1f1;
+  background-color: rgb(186 186 186);
   transition: all 0.1s ease-in-out;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.exp {
+  background-color: rgb(70 70 70);
 }
 
 .show-btn {
@@ -22,9 +28,10 @@
 
 .btn.equal {
   grid-row: span 2;
+  background-color: orange;
 }
 
 .btn:active {
-    box-shadow: 0 2px #666;
-    transform: translateY(2px);
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
 }
