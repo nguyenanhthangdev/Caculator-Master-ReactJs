@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Caculator-Master-ReactJs/static/css/main.353ffec6.css",
+    "main.js": "/Caculator-Master-ReactJs/static/js/main.8277b2a0.js",
+    "static/js/453.040c1733.chunk.js": "/Caculator-Master-ReactJs/static/js/453.040c1733.chunk.js",
+    "index.html": "/Caculator-Master-ReactJs/index.html",
+    "main.353ffec6.css.map": "/Caculator-Master-ReactJs/static/css/main.353ffec6.css.map",
+    "main.8277b2a0.js.map": "/Caculator-Master-ReactJs/static/js/main.8277b2a0.js.map",
+    "453.040c1733.chunk.js.map": "/Caculator-Master-ReactJs/static/js/453.040c1733.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.353ffec6.css",
+    "static/js/main.8277b2a0.js"
+  ]
+}
